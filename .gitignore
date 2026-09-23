@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+*.env
+.env*
+node_modules/
+__pycache__/
+
+# Set when a VA asks to hold their work back from the team for now
+.sync-hold

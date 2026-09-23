@@ -1,0 +1,8 @@
+# Keep everyone's work when two VAs edit the same file on the same day.
+# "union" means git keeps both sides' lines instead of stopping with a conflict.
+# scripts/tidy-after-merge.py then cleans up the frontmatter afterwards.
+*/tasks/*.md      merge=union
+*/*/tasks/*.md    merge=union
+master/history.md merge=union
+master/faqs.md    merge=union
+*/README.md       merge=union

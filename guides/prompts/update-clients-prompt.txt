@@ -1,0 +1,66 @@
+HOW TO USE THIS FILE
+--------------------
+For Tech. Brings client folders made from an older template up to date.
+
+1. Open Antigravity on any folder.
+2. Paste everything under the line.
+3. Answer the couple of questions it asks.
+
+It updates the machinery (instructions, scripts, guides) and never touches a
+client's own details, tasks or work history.
+
+====================================================================
+
+
+I need to update my client folders to the latest version of our template.
+Please do this for me and show me what changed at each step.
+
+Background: each client folder was copied from a template repository. The
+template has been improved since. The update replaces only the shared
+machinery - CLAUDE.md, AGENTS.md, README.md, .gitattributes, .gitignore,
+.claude/settings.json, and everything in scripts/, guides/, skills/ and
+_templates/. It must never touch anything in master/ (the client's details)
+or any service folder with its tasks and assets.
+
+Do this:
+
+1. Find my copy of the template. It is the folder containing
+   scripts/update-client-repo.sh. Look on my Desktop, in an SVA folder, and
+   anywhere obvious under my home folder. If you cannot find it, ask me where
+   it is, or clone it fresh from:
+       https://github.com/johneslabra/SVA-Client-KB-Template
+   into my Desktop under SVA.
+
+2. In the template folder, run: git pull
+   so we are working from the newest version.
+
+3. Find my client folders. They are the folders that contain a "master"
+   folder and a scripts/sync.sh, usually on my Desktop inside SVA. List what
+   you found and ask me to confirm before changing anything. Do not include
+   the template itself.
+
+4. For each client folder I confirm, run from inside the template folder:
+       bash scripts/update-client-repo.sh "<full path to that client folder>"
+   Show me exactly what it printed. It saves any unsaved work first, makes
+   the changes, and stages them without uploading.
+
+5. For each one, check the client's own details were left alone:
+       cd "<client folder>" && git status --porcelain
+   Anything listed under master/ other than a newly added faqs.md is wrong -
+   stop and tell me rather than carrying on.
+
+6. Then, for each client folder, check the update worked:
+       python3 scripts/client-status.py
+   It should say "set up" or "partly set up" for a client that has been
+   filled in. If it says NOT SET UP for a client I know is filled in, stop
+   and tell me - do not commit that one.
+
+7. Show me a summary of all of them, then ask whether to commit and upload.
+   If I say yes, for each folder:
+       git commit -m "Update from template"
+       bash scripts/sync.sh
+   and tell me the result for each.
+
+Do not commit or upload anything until I have seen the summary and said yes.
+If any folder fails, carry on with the others and tell me which failed and
+why.

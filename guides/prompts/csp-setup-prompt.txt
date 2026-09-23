@@ -1,0 +1,62 @@
+HOW TO USE THIS FILE
+--------------------
+For the CSP: the person who fills in a new client's information.
+
+1. Replace CLIENT_LINK below with the client's folder link.
+2. Send everything under the line to the CSP.
+3. They paste it into Antigravity (with any folder open) and send it.
+
+Afterwards they open the new folder on their Desktop, in SVA, and type:
+    Onboard me please
+then choose 1.
+
+====================================================================
+
+
+I'm setting up a new client and I need the client folder on this computer.
+Please do all of this for me and tell me in plain words what's happening.
+I'm not technical, so don't ask me to run anything myself, and don't ask me
+to choose between technical options - just pick the sensible one and tell me
+what you did.
+
+First work out whether I'm on Mac or Windows, and use the right approach.
+
+1. Make sure git is installed.
+   Windows: winget install --id Git.Git -e
+            (I need it for the Bash shell it includes, so don't skip it)
+   Mac:     xcode-select --install
+
+2. Make sure the GitHub CLI (gh) is installed.
+   Windows: winget install --id GitHub.cli -e
+   Mac:     use Homebrew if I have it. If I don't, don't install Homebrew
+            just for this - download the official package from
+            github.com/cli/cli/releases and walk me through it.
+   If something was just installed, my shell may need restarting before it
+   can be found. Handle that rather than telling me it failed.
+
+3. Check gh auth status. If I'm not signed in, run:
+       gh auth login --hostname github.com --git-protocol https --web
+   Then tell me the code and the web page to open, and WAIT for me to
+   finish before carrying on. Don't move on until I say it's done.
+
+4. Run gh auth setup-git.
+
+5. If my name and email aren't set in git yet, set them from my GitHub
+   account. If GitHub hides my email, use my users.noreply.github.com
+   address.
+
+6. Make a folder called "SVA" on my Desktop if it isn't there already, and
+   clone CLIENT_LINK into it. On Windows my Desktop may be inside OneDrive -
+   use whichever one is real. If I don't have access, tell me my GitHub
+   username so I can ask for it.
+
+7. Check this computer has Bash and Python 3, since the automatic backup and
+   the file protection need them. On Windows, install Python with
+   winget install --id Python.Python.3.12 -e if it's missing. On Mac both are
+   usually already there.
+
+8. Open that folder and run: bash scripts/sync.sh
+   to check the backup works. On Windows, run it through Git Bash.
+
+9. Tell me where the folder is, what email address my work is saved under,
+   and whether anything above didn't work.
