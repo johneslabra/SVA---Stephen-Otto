@@ -32,7 +32,9 @@ The one exception is `faqs.md`, the customer FAQs. Anyone can add to that.
      person is listed, everyone else is blocked. A name with no email blocks
      everybody, including themselves, so never list a name on its own. -->
 
-_No one set yet._
+- Ivan — ivan7583john@gmail.com
+- Ady — learning@smartvirtualassistants.com
+- Kenneth Ruga — kennethruga-sva@users.noreply.github.com
 
 ## How to add someone
 

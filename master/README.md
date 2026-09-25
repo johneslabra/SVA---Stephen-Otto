@@ -1,4 +1,4 @@
-# Master — {{CLIENT_NAME}}
+# Master — OttoSpeed
 
 Client-wide context. Every VA on every niche reads this first. Keep it current.
 

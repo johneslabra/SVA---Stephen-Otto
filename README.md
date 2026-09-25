@@ -1,6 +1,6 @@
-# {{CLIENT_NAME}} — Client Repository
+# OttoSpeed — Client Repository
 
-This repo is the single source of truth for all work done for **{{CLIENT_NAME}}**.
+This repo is the single source of truth for all work done for **OttoSpeed**.
 Every VA working on this client commits their work, notes, and task history here.
 
 ## How to get started

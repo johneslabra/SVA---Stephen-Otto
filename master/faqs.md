@@ -1,4 +1,4 @@
-# Customer FAQs — {{CLIENT_NAME}}
+# Customer FAQs — OttoSpeed
 
 The questions this business gets asked by its customers, and the answers the client has
 approved. Use these when replying to comments and messages, writing website or social
@@ -14,7 +14,10 @@ client details.
 
 | Question customers ask | Approved answer | Approved by | When |
 |---|---|---|---|
-|  |  |  |  |
+| Are OttoSpeed license plate screws rustproof? | Yes. OttoSpeed license plate screws are made from corrosion-resistant stainless steel materials designed to prevent rust. | Client | 2026-09-25 |
+| Will OttoSpeed license plate screws fit my vehicle? | OttoSpeed standard screws fit most domestic make vehicles. Additional sizes are available for specific vehicles and foreign models. | Client | 2026-09-25 |
+| Do OttoSpeed license plate screws work with license plate frames? | Yes. OttoSpeed screws are compatible with most metal, silicone, and custom license plate frames. | Client | 2026-09-25 |
+| Are OttoSpeed anti-theft license plate screws easy to remove? | Yes. They can be removed using the included security tool while remaining tamper-resistant to unauthorized removal. | Client | 2026-09-25 |
 
 ## Asked a lot, no answer yet
 

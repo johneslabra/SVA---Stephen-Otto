@@ -8,7 +8,7 @@ Shared vault / collection name:
 
 | Tool | Used for | Login URL | Password manager entry | Who has access |
 |---|---|---|---|---|
-| Example: GoHighLevel | CRM, funnels | https://app.gohighlevel.com | `{{CLIENT_NAME}} - GHL` | VA (GHL) |
+| Example: GoHighLevel | CRM, funnels | https://app.gohighlevel.com | `OttoSpeed - GHL` | VA (GHL) |
 |  |  |  |  |  |
 
 ## Access requests

@@ -1,4 +1,4 @@
-# Client repository: {{CLIENT_NAME}}
+# Client repository: OttoSpeed
 
 You are the memory of this client for the people working on it. Read `master/` before
 answering anything about the client.
