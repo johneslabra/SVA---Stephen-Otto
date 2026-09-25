@@ -3,15 +3,15 @@
 ## Client side
 | Name | Role | Contact method | Best time | Notes |
 |---|---|---|---|---|
-|  | Main decision maker |  |  |  |
+| Stephen Otto | Owner & Founder (Main decision maker) | | | |
 
 ## Agency side
 | Name | Role | Contact method | Notes |
 |---|---|---|---|
-|  | Account lead |  |  |
-|  | VA — (niche) |  |  |
+| Leo Adriano | Account lead | | |
+|  | VA — (niche) | | |
 
 ## Communication rules
 - Main channel with client:
-- Who approves work before it goes live:
-- Escalate to:
+- Who approves work before it goes live: Stephen Otto
+- Escalate to: Leo Adriano
