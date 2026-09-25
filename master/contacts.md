@@ -9,7 +9,7 @@
 | Name | Role | Contact method | Notes |
 |---|---|---|---|
 | Leo Adriano | Account lead | Slack | |
-|  | VA — (niche) | | |
+| Kenneth Ruga | VA — Social Media Manager | Slack | |
 
 ## Communication rules
 - Main channel with client: Slack
