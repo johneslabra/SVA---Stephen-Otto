@@ -12,7 +12,7 @@
 
 ## Hours and availability
 - Client expects responses within:
-- VA working hours for this client:
+- VA working hours for this client: Mondays–Fridays, 8:00 AM – 5:00 PM EST
 
 ## Red lines (never do)
 - None specified yet

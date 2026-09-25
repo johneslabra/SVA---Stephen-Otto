@@ -12,7 +12,10 @@ Social media management across OttoSpeed's channels (educating drivers on compat
 ## Recurring duties
 | Task | Frequency | Notes |
 |---|---|---|
-|  |  |  |
+| Content strategy & planning | Monthly | Align with product launches and campaign goals |
+| Content creation & graphics editing | Weekly | Designing educational, problem-solving, and promotional graphics |
+| Video editing | Weekly | Reels, TikTok, and YouTube short-form videos |
+| Monthly social media audit | Monthly | Review engagement, growth, and top-performing posts |
 
 ## Tools used for this niche
 (see `master/tools-and-access.md` for logins)
